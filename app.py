@@ -1,4 +1,4 @@
-import streamlit as str
+import streamlit as st
 import streamlit.components.v1 as components
 
 # Set page to wide mode
