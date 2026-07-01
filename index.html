@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. Francis Catholic Church | Idimu Jesuit Parish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-announcement-bar">
+        <div class="container container-flex-space">
+            <div class="announcement-ticker">
+                <span class="badge-gold">UPCOMING FEAST</span> 
+                <span>Solemnity of St. Ignatius Celebration — Special High Mass & Parish Social Gathering Coming Soon.</span>
+            </div>
+            <div class="top-bar-actions">
+                <a href="#live" class="top-link"><i class="fas fa-broadcast-tower"></i> Watch Live</a>
+                <a href="#give" class="top-link"><i class="fas fa-heart"></i> Quick Donate</a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar transparent-nav" id="main-navbar">
+        <div class="nav-container container">
+            <a href="#home" class="logo animated-logo">
+                <img src="St. Francis logo.png" alt="St. Francis Logo" onerror="this.style.display='none'">
+                <div class="logo-text">
+                    <span class="main-title">St. Francis</span>
+                    <small class="subtitle-gold">Idimu • Jesuit Parish</small>
+                </div>
+            </a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li class="dropdown-trigger">
+                    <a href="#about" class="nav-link">About <i class="fas fa-chevron-down text-xs"></i></a>
+                    <div class="mega-dropdown">
+                        <div class="dropdown-grid">
+                            <div>
+                                <h4>Our Identity</h4>
+                                <a href="#about">Parish Overview</a>
+                                <a href="#history">Our Sacred History</a>
+                                <a href="#clergy">Clergy & Leadership</a>
+                            </div>
+                            <div>
+                                <h4>Parish Media</h4>
+                                <a href="#news">News Centre</a>
+                                <a href="#bulletins">Weekly Bulletins</a>
+                                <a href="#gallery">Photo Gallery</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#sacraments" class="nav-link">Sacraments</a></li>
+                <li><a href="#ministries" class="nav-link">Ministries</a></li>
+                <li><a href="#programmes" class="nav-link">Programmes</a></li>
+                <li><a href="#prayer-portal" class="nav-link">Prayer Requests</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-right-actions">
+                <a href="#give" class="btn btn-gold-outline">Give</a>
+                <div class="mobile-toggle" id="menu-drawer-toggle"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-drawer" id="mobile-drawer">
+        <div class="drawer-header">
+            <span>Navigation Menu</span>
+            <div class="close-drawer" id="close-drawer-btn"><i class="fas fa-times"></i></div>
+        </div>
+        <ul class="drawer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#history">Our History</a></li>
+            <li><a href="#sacraments">Sacraments</a></li>
+            <li><a href="#ministries">Ministries</a></li>
+            <li><a href="#programmes">Programmes</a></li>
+            <li><a href="#prayer-portal">Prayer Requests</a></li>
+            <li><a href="#news">News & Bulletins</a></li>
+            <li><a href="#give">Online Giving</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section id="home" class="hero-premium-viewport">
+        <div class="hero-video-overlay"></div>
+        <div class="container hero-content-center">
+            <h1 class="fade-in-up">Welcome to St. Francis Catholic Church</h1>
+            <p class="hero-tagline">A Jesuit Parish • A Community of Faith, Hope, and Love — Idimu, Lagos</p>
+            
+            <div class="hero-cta-cluster">
+                <a href="#prayer-portal" class="btn btn-gold-solid">Submit Prayer Request</a>
+                <a href="#live" class="btn btn-white-outline"><i class="fas fa-play-circle"></i> Watch Live Mass</a>
+            </div>
+        </div>
+
+        <div class="hero-stats-panel container glass-card">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="counter" data-target="5000">0</h3>
+                    <p>Registered Parishioners</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="15">0</h3>
+                    <p>Active Ministries</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="25">0</h3>
+                    <p>Years of Service</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="42">0</h3>
+                    <p>Community Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="svg-divider">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,120L1320,120C1200,120,960,120,720,120C480,120,240,120,120,120L0,120Z"></path>
+        </svg>
+    </div>
+
+    <section id="about" class="section-padding reveal-on-scroll">
+        <div class="container grid-2">
+            <div class="about-text-block">
+                <span class="section-badge">Welcome Message</span>
+                <h2>From the Parish Priest Desk</h2>
+                <div class="accent-line"></div>
+                <p class="priest-quote">"To find God in all things, and to walk together under the banner of Christ’s love."</p>
+                <p>Welcome to our vibrant digital parish environment. Here at St. Francis, administered under the spiritual stewardship of the Society of Jesus (Jesuits), we dedicate ourselves to intellectual growth, deep spiritual formation, and robust social outreach metrics. Whether you are a lifelong parishioner or searching for a spiritual home, you are welcome here.</p>
+                <a href="#contact" class="btn btn-gold-outline">Join Our Parish Family</a>
+            </div>
+            <div class="about-media-frame glass-card">
+                <div class="priest-photo-placeholder">
+                    <i class="fas fa-church asset-icon-large"></i>
+                    <p>St. Francis Sanctuary Space</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="history" class="section-padding background-dark-blue reveal-on-scroll">
+        <div class="container">
+            <div class="section-header text-center text-white">
+                <span class="section-badge badge-gold">Our History</span>
+                <h2>Our Sacred Journey</h2>
+                <div class="accent-line line-center"></div>
+                <p>Milestones of faith, community resilience, and Jesuit dedication over the years.</p>
+            </div>
+
+            <div class="interactive-timeline">
+                <div class="timeline-block item-left">
+                    <div class="timeline-date">1999</div>
+                    <div class="glass-card content-box">
+                        <h4>The Foundation Stones</h4>
+                        <p>First Holy Mass celebrated on the layout grounds with our pioneering Jesuit community leaders and a small group of local families.</p>
+                    </div>
+                </div>
+                <div class="timeline-block item-right">
+                    <div class="timeline-date">2012</div>
+                    <div class="glass-card content-box">
+                        <h4>Sanctuary Dedication</h4>
+                        <p>Completion and consecration of our primary church building to accommodate over 3,000 worshippers securely.</p>
+                    </div>
+                </div>
+                <div class="timeline-block item-left">
+                    <div class="timeline-date">2026</div>
+                    <div class="glass-card content-box">
+                        <h4>A Modern Archdiocesan Pillar</h4>
+                        <p>Expanding our community structures, digital tracking access, and launching comprehensive parish tracking tools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sacraments" class="section-padding reveal-on-scroll">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Channels of Grace</span>
+                <h2>The Holy Sacraments</h2>
+                <div class="accent-line line-center"></div>
+                <p>Sacred rituals instituted by Christ that nurture, heal, and sustain our spiritual walk.</p>
+            </div>
+
+            <div class="portal-grid-3">
+                <div class="glass-card sacrament-card">
+                    <div class="sacrament-icon"><i class="fas fa-water"></i></div>
+                    <h3>Holy Baptism</h3>
+                    <p>The gateway to life in the Spirit and the door to all other sacraments.</p>
+                    <div class="requirements-box">
+                        <h5>Requirements:</h5>
+                        <p>Parents and Godparents must complete the parish preparatory catechesis tracking class.</p>
+                    </div>
+                    <a href="#contact" class="btn btn-gold-link">Register / Inquire <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="glass-card sacrament-card">
+                    <div class="sacrament-icon"><i class="fas fa-bread-slice"></i></div>
+                    <h3>First Holy Communion</h3>
+                    <p>Receiving the true Body, Blood, Soul, and Divinity of Jesus Christ in the Eucharist.</p>
+                    <div class="requirements-box">
+                        <h5>Requirements:</h5>
+                        <p>Continuous enrollment in our Saturday children's or adult RCIA catechesis program.</p>
+                    </div>
+                    <a href="#contact" class="btn btn-gold-link">Register / Inquire <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="glass-card sacrament-card">
+                    <div class="sacrament-icon"><i class="fas fa-dove"></i></div>
+                    <h3>Confirmation</h3>
+                    <p>Sealing the baptized with the gift of the Holy Spirit to strengthen their Christian witness.</p>
+                    <div class="requirements-box">
+                        <h5>Requirements:</h5>
+                        <p>Available for teenagers and adults who have completed intermediate sacramental instruction.</p>
+                    </div>
+                    <a href="#contact" class="btn btn-gold-link">Register / Inquire <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="glass-card sacrament-card">
+                    <div class="sacrament-icon"><i class="fas fa-ring"></i></div>
+                    <h3>Holy Matrimony</h3>
+                    <p>A sacred covenant reflecting the love and unity between Christ and His Church.</p>
+                    <div class="requirements-box">
+                        <h5>Requirements:</h5>
+                        <p>Couples must notify the parish office at least 6 months prior to setting their date.</p>
+                    </div>
+                    <a href="#contact" class="btn btn-gold-link">Register / Inquire <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="glass-card sacrament-card">
+                    <div class="sacrament-icon"><i class="fas fa-hands"></i></div>
+                    <h3>Reconciliation</h3>
+                    <p>The healing sacrament of confession where we receive God's infinite mercy and forgiveness.</p>
+                    <div class="requirements-box">
+                        <h5>Schedule:</h5>
+                        <p>Saturdays after early Morning Mass and by appointment with our parish priests.</p>
+                    </div>
+                    <a href="#contact" class="btn btn-gold-link">View Details <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="glass-card sacrament-card">
+                    <div class="sacrament-icon"><i class="fas fa-cross"></i></div>
+                    <h3>Anointing of the Sick</h3>
+                    <p>Spiritual strength and physical comfort for those facing serious illness or advanced age.</p>
+                    <div class="requirements-box">
+                        <h5>Emergency Call:</h5>
+                        <p>Available at any hour. Contact the emergency parish office line immediately.</p>
+                    </div>
+                    <a href="#contact" class="btn btn-gold-link">Call Office <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ministries" class="section-padding background-light reveal-on-scroll">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Get Involved</span>
+                <h2>Parish Ministries & Associations</h2>
+                <div class="accent-line line-center"></div>
+                <p>Discover your calling and serve the community through one of our diverse active lay groups.</p>
+            </div>
+
+            <div class="portal-grid-3">
+                <div class="glass-card ministry-card">
+                    <h4>Altar Servers Association</h4>
+                    <p>Assisting the clergy reverently at the altar during holy liturgy settings.</p>
+                    <small>Meetings: Saturdays 4:00 PM</small>
+                </div>
+                <div class="glass-card ministry-card">
+                    <h4>The Parish Choir</h4>
+                    <p>Leading the congregation into deeper liturgical prayer through traditional and contemporary sacred music.</p>
+                    <small>Rehearsals: Tuesdays & Thursdays 6:30 PM</small>
+                </div>
+                <div class="glass-card ministry-card">
+                    <h4>Catholic Youth Organization (CYON)</h4>
+                    <p>Uniting young adults through faith-sharing, leadership training, and social impact projects.</p>
+                    <small>Meetings: 2nd Sundays after Youth Mass</small>
+                </div>
+                <div class="glass-card ministry-card">
+                    <h4>Legion of Mary</h4>
+                    <p>Apostolic service, spiritual tracking, and home visitation under our Lady's patronage.</p>
+                    <small>Meetings: Sundays 4:30 PM</small>
+                </div>
+                <div class="glass-card ministry-card">
+                    <h4>Catholic Men Organization (CMO)</h4>
+                    <p>Guiding fathers to build solid Christian homes and provide leadership for parish development.</p>
+                    <small>Meetings: 1st Sundays after Early Mass</small>
+                </div>
+                <div class="glass-card ministry-card">
+                    <h4>Catholic Women Organization (CWO)</h4>
+                    <p>Fostering prayerful fellowship and maternal support systems among our mothers.</p>
+                    <small>Meetings: 2nd Sundays after Midday Mass</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="live" class="section-padding reveal-on-scroll">
+        <div class="container streaming-layout-grid">
+            <div class="live-player-container glass-card">
+                <div class="responsive-video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="St. Francis Live Stream Feed" allowfullscreen></iframe>
+                </div>
+                <div class="stream-info">
+                    <span class="indicator-live"><span class="dot"></span> LIVE BROADCAST PORTAL</span>
+                    <h3>Sunday Liturgical Transmission</h3>
+                    <p>Join our online congregation from anywhere in the world. Services go live every Sunday at 10:30 AM WAT. Refresh your browser view if the video playback setup does not immediately render.</p>
+                </div>
+            </div>
+            
+            <div class="homily-vault-container glass-card">
+                <h4>Recent Homily Recordings</h4>
+                <div class="vault-list">
+                    <div class="vault-item">
+                        <span class="date">June 21, 2026</span>
+                        <h5>Finding God in Daily Choices</h5>
+                        <p>Preacher: Rev. Fr. Pius Ndekile, SJ</p>
+                    </div>
+                    <div class="vault-item">
+                        <span class="date">June 14, 2026</span>
+                        <h5>The True Gift of the Eucharist</h5>
+                        <p>Preacher: Rev. Fr. Ehi Omoragbon, SJ</p>
+                    </div>
+                    <div class="vault-item">
+                        <span class="date">June 07, 2026</span>
+                        <h5>The Trinity as Community</h5>
+                        <p>Preacher: Guest Jesuit Companion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="section-padding background-light reveal-on-scroll">
+        <div class="container grid-2">
+            <div>
+                <span class="section-badge">Stay Updated</span>
+                <h2>Parish News & Bulletins</h2>
+                <div class="accent-line"></div>
+                <p style="margin-bottom: 25px;">Read recent updates, community reports, and administrative logs from our leadership councils.</p>
+                
+                <div class="glass-card news-card-inline">
+                    <h5>New Jesuit Pastoral Assignment</h5>
+                    <p>The Provincial Superior has assigned additional clergy companions to support our expanding neighborhood networks. Please welcome them warmly next month.</p>
+                </div>
+
+                <div class="glass-card news-card-inline" style="margin-top:15px;">
+                    <h5>Youth Charity Impact Drive</h5>
+                    <p>Thanks to your generous contributions, our youth distributed over 250 care boxes to low-income families and elderly members this month.</p>
+                </div>
+            </div>
+
+            <div id="bulletins" class="glass-card bulletin-download-box text-center">
+                <div class="bulletin-icon"><i class="fas fa-file-pdf"></i></div>
+                <h3>Weekly Bulletin Archive</h3>
+                <p>Download the full print edition of this week's bulletin to review detailed notices, liturgical schedules, and finance committee logs.</p>
+                <button class="btn btn-gold-solid" onclick="alert('Downloading the latest parish bulletin PDF file...')">Download Current Bulletin</button>
+                
+                <div class="newsletter-signup-form">
+                    <h4>Subscribe to Digital Delivery</h4>
+                    <form onsubmit="event.preventDefault(); alert('Subscribed successfully.'); this.reset();">
+                        <input type="email" class="form-field" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn btn-gold-outline" style="width:100%; margin-top:10px;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prayer-portal" class="section-padding reveal-on-scroll">
+        <div class="container" style="max-width: 700px;">
+            <div class="glass-card text-center" style="margin-bottom: 30px;">
+                <h2>Submit a Prayer Request</h2>
+                <div class="accent-line line-center"></div>
+                <p>Your intentions will be shared securely with our intercessory teams and included silently in our daily Jesuit community Eucharistic offerings.</p>
+            </div>
+
+            <div class="glass-card">
+                <form onsubmit="event.preventDefault(); document.getElementById('prayer-success').style.display='block'; this.reset();">
+                    <div class="form-box">
+                        <label>Your Name (Optional)</label>
+                        <input type="text" class="form-field" placeholder="Anonymous">
+                    </div>
+                    <div class="form-box">
+                        <label>Your Intention Details</label>
+                        <textarea class="form-field" rows="5" placeholder="Write your prayer request here..." required></textarea>
+                    </div>
+                    <div class="form-box">
+                        <label>Visibility Setting</label>
+                        <select class="form-field">
+                            <option>Keep Private (Clergy Eyes Only)</option>
+                            <option>Publish Privately to Parish Intercessor Group</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-gold-solid" style="width:100%; padding:14px;">Submit Prayer Intentions</button>
+                </form>
+                <div id="prayer-success" class="alert-success-box" style="display:none; margin-top:20px; padding:15px; border-left:4px solid #d4af37; background: rgba(212,175,55,0.1);">
+                    <p><strong>Intentions Received:</strong> Your prayer request has been filed securely into our spiritual tracking network.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="give" class="section-padding background-dark-blue reveal-on-scroll">
+        <div class="container text-center text-white" style="max-width: 800px;">
+            <span class="section-badge badge-gold">Stewardship</span>
+            <h2>Online Giving & Offerings</h2>
+            <div class="accent-line line-center"></div>
+            <p style="margin-bottom:40px;">Support our pastoral operations, Jesuit charity distributions, and physical facility renovations securely from anywhere.</p>
+            
+            <div class="portal-grid-3 text-dark">
+                <div class="glass-card give-tier-card">
+                    <h4>Thanksgiving & Tithes</h4>
+                    <p>Support daily liturgical requirements, sanctuary tracking expenses, and essential parish bills.</p>
+                    <button class="btn btn-gold-solid" onclick="alert('Redirecting to secure merchant payment checkout...')">Give Online</button>
+                </div>
+                <div class="glass-card give-tier-card">
+                    <h4>Parish Building Fund</h4>
+                    <p>Help fund our structural expansions, facility maintenance, and ongoing classroom construction projects.</p>
+                    <button class="btn btn-gold-solid" onclick="alert('Redirecting to secure merchant payment checkout...')">Give Online</button>
+                </div>
+                <div class="glass-card give-tier-card">
+                    <h4>Jesuit Charity Fund</h4>
+                    <p>Direct financial help providing medical aid and food boxes for low-income local families.</p>
+                    <button class="btn btn-gold-solid" onclick="alert('Redirecting to secure merchant payment checkout...')">Give Online</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section-padding reveal-on-scroll">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Parish Life</span>
+                <h2>Photo Gallery Archive</h2>
+                <div class="accent-line line-center"></div>
+                <p>Visual highlights of recent feast days, liturgical celebrations, and community service projects.</p>
+            </div>
+
+            <div class="masonry-gallery">
+                <div class="masonry-item glass-card">
+                    <div class="gallery-placeholder-visual"><i class="fas fa-images"></i></div>
+                    <div class="gallery-caption">Easter Vigil High Mass Celebration</div>
+                </div>
+                <div class="masonry-item glass-card">
+                    <div class="gallery-placeholder-visual"><i class="fas fa-images"></i></div>
+                    <div class="gallery-caption">CYON Youth Outreach Care Distribution</div>
+                </div>
+                <div class="masonry-item glass-card">
+                    <div class="gallery-placeholder-visual"><i class="fas fa-images"></i></div>
+                    <div class="gallery-caption">Feast day Processing Sequence</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding reveal-on-scroll">
+        <div class="container grid-2">
+            <div class="glass-card">
+                <h3>Contact Information</h3>
+                <div class="accent-line"></div>
+                
+                <ul class="contact-details-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Idimu Road, Idimu, Lagos, Nigeria.</li>
+                    <li><i class="fas fa-envelope"></i> info@stfrancisidimu.org</li>
+                    <li><i class="fas fa-phone"></i> +234 (0) 1234 5678</li>
+                    <li><i class="fas fa-clock"></i> Office Hours: Mon - Fri (9:00 AM - 4:00 PM)</li>
+                </ul>
+
+                <div class="whatsapp-integration-box" style="margin-top: 25px;">
+                    <a href="https://wa.me/#" target="_blank" class="btn" style="background:#25d366; color:white; display:inline-flex; align-items:center; gap:10px;">
+                        <i class="fab fa-whatsapp" style="font-size:1.4rem;"></i> Chat with Parish Office via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="glass-card">
+                <h3>Send Us a Message</h3>
+                <form style="margin-top: 20px;" onsubmit="event.preventDefault(); alert('Message dispatched safely to administration office.'); this.reset();">
+                    <div class="form-box">
+                        <label>Your Full Name</label>
+                        <input type="text" class="form-field" required>
+                    </div>
+                    <div class="form-box">
+                        <label>Email Address</label>
+                        <input type="email" class="form-field" required>
+                    </div>
+                    <div class="form-box">
+                        <label>Message Content</label>
+                        <textarea class="form-field" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-gold-solid" style="width:100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3 class="text-white">St. Francis Church</h3>
+                <p style="font-size:0.9rem; margin-top:10px; color:var(--text-muted);">An active Catholic community centered on Ignatian spirituality, seeking the greater glory of God across all dimensions of parish life.</p>
+                <div class="footer-social-cluster" style="margin-top: 15px; display:flex; gap:15px;">
+                    <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4>Quick Pathways</h4>
+                <ul>
+                    <li><a href="#about">About Our Parish</a></li>
+                    <li><a href="#sacraments">Sacramental Programs</a></li>
+                    <li><a href="#ministries">Lay Group Directories</a></li>
+                    <li><a href="#live">Broadcast Stream Matrix</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#bulletins">Weekly Bulletins</a></li>
+                    <li><a href="#news">News Bulletins</a></li>
+                    <li><a href="#prayer-portal">Prayer Intercessions</a></li>
+                    <li><a href="#give">Secure Offerings Portal</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 St. Francis Catholic Church, Idimu. Administered by the Society of Jesus (Jesuits). All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
